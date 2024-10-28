@@ -1,0 +1,4 @@
+<div class="opensource-intro">
+    <h2>Open Source Contributions</h2>
+    <p>I am passionate about open source software and actively contribute to projects that align with my skills and interests. Open source allows me to collaborate with diverse communities and enhance my technical abilities.</p>
+</div>

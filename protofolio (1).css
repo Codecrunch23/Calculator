@@ -1,0 +1,155 @@
+.logo{
+    border-radius: 200px;
+    height:150px;
+    width:150px;
+    padding: 39px;
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0%;
+    background-color:white;
+    color:rgb(5, 5, 5);
+}
+
+
+nav ul{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:20px;
+    background-color:white;
+    color: black;
+}
+nav li{
+    margin-right:50px;
+}
+nav ul{
+    display:flex;
+    list-style-type:none;
+    padding:0;
+    margin:0;
+}
+.img1,.img2,.img3,.img4{
+    border-radius:70px ;
+    width:40px;
+    height:40px;
+    justify-content: space-between;
+    padding:20px;
+    cursor: pointer;
+        transition: transform 0.2s; /* Animation effect */
+    }
+    
+    .click:hover img {
+        transform: scale(1.05); /* Slightly enlarge on hover */
+    }
+
+.img1:hover + .img2:hover+ .img3:hover +.img4:hover{
+    transform: scale(1.05);
+}
+.intro{
+    display:center;
+    margin:10px;
+    padding:50px;
+}
+
+
+.intro h1{
+    margin:0 0 10px;
+    display:center;
+    padding:20px;
+  
+}
+.intro p{
+    font:900;
+    font-style: italic;
+    font-size: 20px;
+    margin-left: 30px;
+    padding:10px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    display:flex;
+}
+.btn-resume,.btn-contact{
+    background-color:#120836;
+    color:white;
+    padding:20px 40px;
+    text-align:center;
+    font-size:16px;
+    margin:4px 2px;
+    cursor:pointer;
+    border-radius: 50px;
+}
+.btn-resume:hover{
+    background-color: rgb(150, 150, 221);
+}
+.btn-contact:hover{
+    background-color: rgb(176, 176, 231) ;
+}
+
+
+.second {
+    display: flex;
+    align-items: center; 
+}
+
+.my-img {
+    width: 300px;
+    height:auto;
+    margin-right: 200px;
+    padding-left: 70px; 
+}
+.info {
+    max-width: 500px;
+}
+.Proficiency{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display:center;
+    margin-right:30px;
+}
+.progress-bar{
+    padding-top: 30px;
+
+}
+.progress-bar progress{
+    display: center;
+        margin-top: 30px;
+        align-items: flex-start;
+    
+    }
+.progress-bar label{
+        font-size: larger;
+        padding-left: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .certificate1, .certificate2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 10px 0; 
+    }
+    
+    .cert-item {
+        width: calc(33.33% - 20px); 
+        text-align: center; 
+        margin-bottom: 20px; 
+    }
+    
+    .cert-item img{
+        width:250px;
+        height:170px;
+    }
+    .cert-item embed {
+        max-width: 100%; 
+        height: auto;
+    }
+.loc{
+    width: 30px;
+    height:30px;
+}
+
+
